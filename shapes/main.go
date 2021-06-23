@@ -37,7 +37,7 @@ func main() {
 	printArea(s)
 }
 
-// this is the printAread func that is available
+// this is the printArea func that is available
 // to the interface "shape" which is avaible to
 // types that implement the getArea() function
 func printArea(s shape) {
