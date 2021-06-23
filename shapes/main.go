@@ -39,7 +39,7 @@ func main() {
 
 // this is the printAread func that is available
 // to the interface "shape" which is avaible to
-// types the implement the getArea()function
+// types that implement the getArea()function
 func printArea(s shape) {
 	area, sh := s.getArea()
 	fmt.Println("The area of the", sh, "is", area)
