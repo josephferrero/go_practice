@@ -1,0 +1,5 @@
+applications:
+- name: my-go-app
+  random-route: true
+  memory: 128M
+  buildpack: go_buildpack
